@@ -10,9 +10,6 @@ def sort_dic_value(d):
 def maxDictValue(d):
     return max(d.items(), key=operator.itemgetter(1))[0]
 
-def sortHorizontals(horizontales):
-    
-
 def vertiHorizHisto(lines):
     horizontales = {}
     verticales = []
